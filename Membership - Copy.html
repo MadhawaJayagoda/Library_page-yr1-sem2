@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <style type="text/css">
+        body{
+            background-color: lightgrey;
+        }
+
+        img.first{
+            align-items: left;
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+        a.top1{
+            float: right;
+        }
+        a.top2{
+            color: white;
+            align-items: left;
+            font-size: large;
+        }
+        p.first{
+            font-size: 50px;
+            float: right;
+            color: white;
+        }
+
+        img.second{
+            float: right;
+            width: 1100px;
+            height: 500px;
+        }
+
+        ul{
+            list-style-type: disc;
+
+        }
+
+        footer{
+            background-color:gray;
+            width: 100%;
+        }
+
+        #footer {
+            position:fixed;
+            bottom:0;
+        }
+
+    </style>
+    <TITLE> OPAC </TITLE>
+</HEAD>
+<BODY>
+<div style="background-color: darkgrey; width: 100%; height:175px; float: left" >
+    <img class="first" src="../Lab%2004%20Assignment/SLIIT%20-%20Copy.png" ; width="350" ; height="200" ; align="top">
+    <a class="top1" href="Log_in.html">|  Log in </a>
+    <a class="top1" href="../Lab%2002%20&%2003%20assignments/Membership.html"> Register </a>
+    <p class="first" > <B>SLIIT LIBRARY </B></p>
+</div>
+<br/>
+<br/>
+<div style="background-color: dimgrey; width: 100%">
+    <a class="top2" href = "http://www.lib.mrt.ac.lk/index.php"> Home </a> |
+    <a class="top2" href = "http://www.lib.mrt.ac.lk/index.php/about-us/the-library"> About Us </a> |
+    <a class="top2" href = "http://www.lib.mrt.ac.lk/index.php/membership"> Membership </a> |
+    <a class="top2" href = "www.opac.lib.mrt.ac.lk/cgi-bin/koha/opac-user.pl"> Search </a> |
+    <a class="top2" href = "http://www.lib.mrt.ac.lk/index.php/staff-4/archival"> New Arrivals </a> |
+    <a class="top2" href = "http://www.lib.mrt.ac.lk/index.php/about-us/staff/professional"> Staff </a> <br/>
+</div>
+<img class="second" src="../Lab%2002%20&%2003%20assignments/image.jpg">
+<h3> Categories </h3>
+<UL TYPE = "DISK">
+    <LI><a href = "www.opac.lib.mrt.ac.lk/cgi-bin/koha/opac-user.pl"> OPAC Search </a></LI><BR/>
+    <LI><a href = "http://www.lib.mrt.ac.lk/index.php/staff-4/archival"> New Arrivals </a></LI><BR/>
+    <LI><a href = "http://www.lib.mrt.ac.lk/index.php/membership"> Membership </a></LI><BR/>
+    <LI><a href = "www.cbsl.gov.lk"> Central Bank of Sri Lanka </a></LI><BR/>
+    <LI><a href = "www.esn.ac.lk/index.php/research-publications/e-repository.html"> e-Repository </a></LI><BR/>
+    <LI><a href = "www.dictionary.com"> Dictionary </a></LI><BR/>
+    <LI><a href = "http://www.lib.mrt.ac.lk/index.php/about-us/policies/circulation"> Library Policies </a></LI><BR/>
+    <LI><a href = "http://www.mrt.ac.lk/web"> University of Moratuwa </a></LI><BR/>
+</UL>
+
+<h3> E-Resources </h3>
+<ul type = "disk">
+    <li> Find the Journals </li>
+    <a href = "http://www.lib.mrt.ac.lk/index.php/staff-7/journals"> Online Journals </a><br/><br/>
+    <li> Access the available databases </li>
+    <a href = "http://www.lib.mrt.ac.lk/index.php/staff-7/databases"> Databases </a><br/><br/>
+    <li> Getting start with research? </li>
+    <a href = "http://dl.lib.mrt.ac.lk/handle/123/2098"> Research Papers </a><br/><br/>
+    <li> What is done already? </li>
+    <a href = "http://www.lib.mrt.ac.lk/index.php/staff-7/open-access-journals"> Thesis dissertation </a><br/><br/>
+    <li> Help!!! </li>
+    <a href = "http://www.lib.mrt.ac.lk/index.php/policies-4"> Library Guide </a><br/><br/>
+    <li> Turnitin </li>
+    <a href = "http://www.lib.mrt.ac.lk/index.php/2-uncategorised/140-the-library-75"> Turnitin </a><br/><br/>
+</ul>
+<hr/>
+
+<h1 align="center"> Apply for Library Membership - Student </h1>
+<div class="content">
+    <form>
+        <table class="form">
+            <tr>
+                <td><b> First Name : </b></td>
+                <td><input type="text" name="firstname" ></td>
+            </tr>
+            <tr>
+                <td><b> Status : </b></td>
+                <td><input list="status" name="marrage">
+                <datalist id="status">
+                    <option value="Mr.">
+                    <option value ="Mrs. ">
+                    <option value = "Ms.">
+                </datalist>
+            <tr>
+                <td><b> Student Reg.No :  </b></td>
+                <td><input type="text" name = "reg.no" placeholder="IT/BM/ENG/QS 171800000"></td>
+            </tr>
+            <tr>
+                <td><b> Entitle Course :  </b></td>
+                <td><input type="text" name = "course" placeholder="SLIIT Honours Degree in IT"></td>
+            </tr>
+            <tr>
+                <td><b> Postal Address :  </b></td>
+                <td><textarea name ="Postal address" cols="30" rows="2" ></textarea></td>
+            </tr>
+            <tr>
+                <td><b> Contact Number (mobile) : </b></td>
+                <td><input type="text" name="telephone.no1" placeholder="0700000000" ></td>
+            </tr>
+            <tr>
+                <td> <b><pre>              (Land Line):</pre></b></td>
+                <td><input type="text" name="telephone.no2" placeholder="0112000000"></td>
+            </tr>
+            <tr>
+                <td><b> Email Address : </b></td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td><b> Deposite status : </b></td>
+                <td><input type="radio" name="deposite" value="3000/=" > 3000/=
+                    <input type="radio" name="deposite" value="6000/=" >   6000/=</td>
+            </tr>
+        </table>
+        <input type="reset" style="background-color: blue; color: snow"; size="large">
+        <input type="submit" style="background-color: blue; color: snow"; size="large">
+    </form>
+</div>
+</BODY>>
+<footer id="footer"> Copyright @ Sri Lanka Institute of Information Technology 2017 - All rights Reserved </footer>
+</HTML>
